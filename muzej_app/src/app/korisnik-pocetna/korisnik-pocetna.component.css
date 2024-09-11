@@ -1,0 +1,30 @@
+.slika{
+    height: 350px;
+    width: 100%;
+}
+
+img{
+    height: 350px;
+    width: 100%;
+}
+
+.main{
+    background-color: black;
+    
+}
+
+.tabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+label{
+    margin:18px;
+    text-size-adjust: 4px;
+    color: white;
+    
+}

@@ -1,0 +1,84 @@
+
+<div class="slika">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Louvre_Courtyard%2C_Looking_West.jpg/1920px-Louvre_Courtyard%2C_Looking_West.jpg">
+</div>
+<div class="main">
+    <br>
+    <label>
+        Lista svih dostupnih muzeja:
+    </label>
+    <br>&nbsp;
+    <div class="tabela">
+        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8" style="width: 90%;" id="tabela">
+
+            
+            <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef> Naziv </th>
+            <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+            </ng-container>
+        
+        
+            <ng-container matColumnDef="tip">
+            <th mat-header-cell *matHeaderCellDef> Tip muzeja </th>
+            <td mat-cell *matCellDef="let element"> {{element.tip}} </td>
+            </ng-container>
+        
+            <ng-container matColumnDef="drzava">
+                <th mat-header-cell *matHeaderCellDef> Država </th>
+                <td mat-cell *matCellDef="let element"> {{element.drzava}} </td>
+            </ng-container>
+            
+            <ng-container matColumnDef="grad">
+            <th mat-header-cell *matHeaderCellDef> Grad </th>
+            <td mat-cell *matCellDef="let element"> {{element.grad}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="id">
+                <th mat-header-cell *matHeaderCellDef> Detalji o muzeju </th>
+                <td mat-cell *matCellDef="let element"> <button (click)="klik(element.id)">Detalji</button>  </td>
+            </ng-container>
+        
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+    </div>
+    <br>
+    <label>
+        Lista aktivnih virtuelnih posjeta:
+    </label>
+    <br>&nbsp;
+    <div class="tabela">
+        <table mat-table [dataSource]="dataSource1" class="mat-elevation-z8" style="width: 90%;" id="tabela1">
+
+            
+            <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef> Naziv </th>
+            <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+            </ng-container>
+        
+        
+            <ng-container matColumnDef="tip">
+            <th mat-header-cell *matHeaderCellDef> Tip muzeja </th>
+            <td mat-cell *matCellDef="let element"> {{element.tip}} </td>
+            </ng-container>
+        
+            <ng-container matColumnDef="drzava">
+                <th mat-header-cell *matHeaderCellDef> Država </th>
+                <td mat-cell *matCellDef="let element"> {{element.drzava}} </td>
+            </ng-container>
+            
+            <ng-container matColumnDef="grad">
+            <th mat-header-cell *matHeaderCellDef> Grad </th>
+            <td mat-cell *matCellDef="let element"> {{element.grad}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="id">
+                <th mat-header-cell *matHeaderCellDef> Detalji o muzeju </th>
+                <td mat-cell *matCellDef="let element"> <button (click)="klik(element.id)">Detalji</button>  </td>
+            </ng-container>
+        
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+    </div>
+</div>

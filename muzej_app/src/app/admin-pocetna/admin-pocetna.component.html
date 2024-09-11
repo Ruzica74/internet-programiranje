@@ -1,0 +1,33 @@
+<div class="slika">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Louvre_Courtyard%2C_Looking_West.jpg/1920px-Louvre_Courtyard%2C_Looking_West.jpg">
+</div>
+<div class="dugmici">
+    <button class="button1" mat-button (click)="radSaKorisnicima()">Rad sa korisnicima</button>
+    <button class="button1" mat-button (click)="unosMuzeja()">Unos muzeja</button>
+    <button class="button1" mat-button (click)="kreiranjePosjeta()">Kreiranje posjeta</button>
+    <button class="button1" mat-button (click)="pregledLogova()">Pregled logova</button>
+</div>
+
+<div class="main">
+    <div class="zaglavlje1">
+        <div class="zaglavlje">
+            <a mat-button href="http://localhost:8080/muzejAdministrator?token={{this.korisnik.token}}" target="_blank" class="button3" (click)="uzmiKorisnika()">Administratorska aplikacija</a>
+            <label mat-button >Broj trenutno aktivnih korisnika:{{brojAktivnih}} </label>
+            <label mat-button >Broj registrovanih korisnik: {{brojRegistrovanih}}</label>
+        </div>
+        <div class="zaglavlje2">
+            <button mat mat-button class="button2" (click)="odlogujSe()">Odloguj se</button>
+        </div>
+    </div>
+    <div>
+        <div class="divGrafik">
+          <canvas baseChart class="grafik" id="myChart" *ngIf="barChartData[0].data.length==24"
+                  [datasets]="barChartData"
+                  [labels]="barChartLabels"
+                  [options]="barChartOptions"
+                  [legend]="barChartLegend"
+                                     >
+          </canvas>
+        </div>
+      </div>
+</div>

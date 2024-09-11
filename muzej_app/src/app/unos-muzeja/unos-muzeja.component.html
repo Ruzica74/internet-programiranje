@@ -1,0 +1,99 @@
+<div class="main">
+    <div class="slika">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Louvre_Courtyard%2C_Looking_West.jpg/1920px-Louvre_Courtyard%2C_Looking_West.jpg">
+    </div>
+    <div class="dugmici">
+        <button class="button1" mat-button (click)="radSaKorisnicima()">Rad sa korisnicima</button>
+        <button class="button1" mat-button (click)="unosMuzeja()">Unos muzeja</button>
+        <button class="button1" mat-button (click)="kreiranjePosjeta()">Kreiranje posjeta</button>
+        <button class="button1" mat-button (click)="pregledLogova()">Pregled logova</button>
+    </div>
+    
+    <div class="zaglavlje1">
+        <label>
+            Forma za unos muzeja:
+        </label>
+        <button class="button2" mat-button (click)="pocetna()">Početna stranica</button>
+    </div>
+    <div class="unos">
+        
+        <mat-form-field  appearance="fill">
+            <mat-label>Naziv</mat-label>
+            <input matInput placeholder="Naziv" value="" [(ngModel)]="naziv" type="text" required>
+        </mat-form-field>
+        <mat-form-field  appearance="fill">
+            <mat-label>Broj telefona</mat-label>
+            <input matInput placeholder="Broj telefona" value="" [(ngModel)]="brojTelefona" type="number" required>
+        </mat-form-field>
+        <div class="odabir">
+            <form>
+                <h4>mat-select</h4>
+                <mat-form-field appearance="fill">
+                <mat-label>Odaberite državu</mat-label>
+                <mat-select [(ngModel)]="drzava" name="drzava" (ngModelChange)="uzmiRegion()">
+                    <mat-option *ngFor="let d of drzave" [value]="d.naziv">
+                    {{d.naziv}}
+                    </mat-option>
+                </mat-select>
+                </mat-form-field>
+            </form>
+            <form>
+                <h4>mat-select</h4>
+                <mat-form-field appearance="fill">
+                <mat-label>Odaberite region</mat-label>
+                <mat-select [(ngModel)]="selectedRegion"  (ngModelChange)="uzmiGrad()" name="region">
+                    <mat-option *ngFor="let d of regioni" [value]="d">
+                    {{d}}
+                    </mat-option>
+                </mat-select>
+                </mat-form-field>
+            </form>
+            <form>
+                <h4>mat-select</h4>
+                <mat-form-field appearance="fill">
+                <mat-label id="grad">Odaberite grad</mat-label>
+                <mat-select [(ngModel)]="grad" name="grad">
+                    <mat-option *ngFor="let d of gradovi" [value]="d">
+                    {{d}}
+                    </mat-option>
+                </mat-select>
+                </mat-form-field>
+            </form>
+        </div>
+        <br>
+        <mat-form-field  appearance="fill">
+            <mat-label>Adresa</mat-label>
+            <input matInput placeholder="Adresa" value="" [(ngModel)]="adresa" type="text" required>
+        </mat-form-field>
+        <mat-form-field  appearance="fill">
+            <mat-label>Geografska dužina</mat-label>
+            <input matInput placeholder="Geografska dužina" value="" [(ngModel)]="geoD" type="number" required>
+        </mat-form-field>
+        <mat-form-field  appearance="fill">
+            <mat-label>Geografska širina</mat-label>
+            <input matInput placeholder="Geografska širina" value="" [(ngModel)]="geoS" type="number" required>
+        </mat-form-field>
+        <div class="odabir">
+            <form>
+                <h4>mat-select</h4>
+                <mat-form-field appearance="fill">
+                <mat-label>Tip muzeja</mat-label>
+                <mat-select [(ngModel)]="tipM" name="food">
+                    <mat-option *ngFor="let d of tipovi" [value]="d.tip">
+                    {{d.tip}}
+                    </mat-option>
+                </mat-select>
+                </mat-form-field>
+            </form>
+            <mat-form-field  appearance="fill">
+                <mat-label>Unesite novi tip muzeja</mat-label>
+                <input matInput placeholder="Unesite novi tip muzeja" value="" [(ngModel)]="tip" type="text" >
+            </mat-form-field>
+        </div>
+        <button mat-button class="button2" (click)="unos()" type="submit">Sačuvaj</button>
+    
+    </div>
+    <div class="obavjestenje" id="labela">
+        <label id="obvj"></label>
+    </div>
+</div>

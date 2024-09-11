@@ -1,0 +1,103 @@
+<div class="main">
+    <div class="slika">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Louvre_Courtyard%2C_Looking_West.jpg/1920px-Louvre_Courtyard%2C_Looking_West.jpg">
+    </div>
+    <div class="dugmici">
+        <button class="button1" mat-button (click)="radSaKorisnicima()">Rad sa korisnicima</button>
+        <button class="button1" mat-button (click)="unosMuzeja()">Unos muzeja</button>
+        <button class="button1" mat-button (click)="kreiranjePosjeta()">Kreiranje posjeta</button>
+        <button class="button1" mat-button (click)="pregledLogova()">Pregled logova</button>
+    </div>
+    
+    <div class="zaglavlje1">
+        <label>
+            Forma za unos posjete:
+        </label>
+        <button class="button2" mat-button (click)="pocetna()">Početna stranica</button>
+    </div>
+
+    <div class="odabir1">
+        <form>
+            <h4>mat-select</h4>
+            <mat-form-field appearance="fill" >
+            <mat-label>Odaberite muzej</mat-label>
+            <mat-select [(ngModel)]="selectedMuzej" name="muzej">
+                <mat-option *ngFor="let m of muzeji" [value]="m.naziv" >
+                {{m.naziv}}
+                </mat-option>
+            </mat-select>
+            </mat-form-field>
+        </form>
+       
+        <mat-form-field appearance="fill" class="unos">
+            <mat-label>Datum</mat-label>
+            <input  matInput [matDatepicker]="picker" [min]="minDate" [(ngModel)]="datum" class="novi">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        
+        <mat-form-field class="vrijeme" appearance="fill">
+            <mat-label>Vrijeme</mat-label>
+            <input matInput class="vrijeme" placeholder="Vrijeme" [(ngModel)]="vrijeme"
+              [ngxMatTimepicker]="picker1" [format]="24" required>
+             <ngx-mat-timepicker #picker1></ngx-mat-timepicker>
+        </mat-form-field>
+
+        <mat-form-field class="vrijeme" appearance="fill">
+            <mat-label>Trajanje u satima</mat-label>
+            <input matInput class="vrijeme" placeholder="Trajanje" [(ngModel)]="trajanje" value="" min=0 type="number" required>
+        </mat-form-field>
+
+        <mat-form-field class="vrijeme" appearance="fill">
+            <mat-label>Cijena u KM</mat-label>
+            <input matInput class="vrijeme" placeholder="Cijena" [(ngModel)]="cijena" value="" min=0 type="number" required>
+        </mat-form-field>
+
+        <div class="odabir">
+            <label class="border">
+                Unesite od 5 do 10 slika za prezentaciju:
+            </label>
+        
+        <br>
+        
+            <input #imageInput class="slike" id="slike"
+            type="file"
+            [(ngModel)]="inputSLika"
+             accept="image/*"
+             [attr.disabled]="broj>=10 ? '' : null"
+             (change)="processFile(imageInput)">
+        </div>
+        
+        <div *ngFor="let slika of slike" class="poredaj">
+            <img  src={{slika}} class="malaSlika">
+        </div>
+        <label class="border">Potreban je jedan video za prezentaciju:</label>
+        <div class="odabir">
+        <input #videoInput class="slike" id="upload"
+            type="file"
+             accept="video/mp4, "
+             [(ngModel)]="videoSaRacunara"
+             (change)="processVideo(videoInput)">
+             <label class="yt">ili</label>
+        <mat-form-field class="yt" appearance="fill">
+            <mat-label>Link YouTube videa</mat-label>
+            <input id="yt" matInput class="vrijeme" autocomplete="off" placeholder="Link videa" [(ngModel)]="ytVideo" value="" (ngModelChange)="ytPromjena()" type="text">
+        </mat-form-field>
+        </div>
+        <div class="videoUpload" id="videoUpload">
+            <video width="400" height="250" autoplay loop plays-inline [muted]="true" class="vid" *ngIf="video!=''">
+                <source src={{video}} type="video/mp4">
+            </video>
+        </div>
+        <div class="player" id="player">
+        <iframe  type="text/html" width="400" height="250" *ngIf="ytZaPrikaz!=''"
+            [src]='getVideoForYt()'
+            frameborder="0"></iframe>
+        </div>
+        <button class="button1" mat-button (click)="sacuvaj()">Sačuvaj</button>
+        <br>&nbsp;
+        <div id="obvj" class="obavjestenje">
+            <label id="labela"></label>
+        </div>
+    </div>
+

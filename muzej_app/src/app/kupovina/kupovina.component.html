@@ -1,0 +1,22 @@
+<div class="slika">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Louvre_Courtyard%2C_Looking_West.jpg/1920px-Louvre_Courtyard%2C_Looking_West.jpg">
+</div>
+<div class="main">
+    <br>
+    <div class="mat-typography" style="text-align: center; background-color: black; color: white;">
+        <h1>{{muzej.naziv}}</h1>
+    </div>
+    <mat-list>
+        <mat-list-item>Tip muzeja: {{muzej.tipMuzeja.tip}}</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>Država u kojoj se nalazi muzej: {{muzej.lokacija.drzava}}</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>Grad: {{muzej.lokacija.grad}}</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>Adresa: {{muzej.lokacija.adresa}}</mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item>Broj telefona: {{muzej.brojTelefona}}</mat-list-item>
+        <mat-divider></mat-divider>
+    </mat-list>
+    
+</div>
