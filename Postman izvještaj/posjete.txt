@@ -1,0 +1,422 @@
+[
+    {
+        "id": 1,
+        "datum": "2022-03-21T23:00:00.000+00:00",
+        "vrijeme": "17:00:00",
+        "trajanje": 33.0,
+        "cijena": 33.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 10,
+            "video": "http://localhost:9000/video1.mp4",
+            "muzejByMuzejId": {
+                "id": 6,
+                "naziv": "Nacionalni muzej vazduhoplovstva i svemira",
+                "brojTelefona": "+12026332214",
+                "lokacija": {
+                    "id": 6,
+                    "drzava": "America",
+                    "grad": "Vašington",
+                    "geolokacijaDuzina": 38.888359,
+                    "geolokacijaSirina": -77.019936,
+                    "adresa": "600 Independence Ave SW, Washington, DC 20560"
+                },
+                "tipMuzeja": {
+                    "id": 5,
+                    "tip": "muzej vazduhoplovstva"
+                }
+            }
+        }
+    },
+    {
+        "id": 2,
+        "datum": "2022-03-20T23:00:00.000+00:00",
+        "vrijeme": "16:00:00",
+        "trajanje": 5.0,
+        "cijena": 5.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 11,
+            "video": "https://www.youtube.com/embed/fdcEKPS6tOQ",
+            "muzejByMuzejId": {
+                "id": 6,
+                "naziv": "Nacionalni muzej vazduhoplovstva i svemira",
+                "brojTelefona": "+12026332214",
+                "lokacija": {
+                    "id": 6,
+                    "drzava": "America",
+                    "grad": "Vašington",
+                    "geolokacijaDuzina": 38.888359,
+                    "geolokacijaSirina": -77.019936,
+                    "adresa": "600 Independence Ave SW, Washington, DC 20560"
+                },
+                "tipMuzeja": {
+                    "id": 5,
+                    "tip": "muzej vazduhoplovstva"
+                }
+            }
+        }
+    },
+    {
+        "id": 3,
+        "datum": "2022-03-20T23:00:00.000+00:00",
+        "vrijeme": "15:00:00",
+        "trajanje": 2.0,
+        "cijena": 33.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 12,
+            "video": "https://www.youtube.com/embed/fdcEKPS6tOQ",
+            "muzejByMuzejId": {
+                "id": 4,
+                "naziv": "Muzej zlata",
+                "brojTelefona": "+576013432222",
+                "lokacija": {
+                    "id": 4,
+                    "drzava": "Colombia",
+                    "grad": "Bogota",
+                    "geolokacijaDuzina": 4.601958,
+                    "geolokacijaSirina": -74.072098,
+                    "adresa": "Cra. 6 #15-88, Bogotá, Cundinamarca"
+                },
+                "tipMuzeja": {
+                    "id": 3,
+                    "tip": "muzej zlata"
+                }
+            }
+        }
+    },
+    {
+        "id": 4,
+        "datum": "2022-03-21T23:00:00.000+00:00",
+        "vrijeme": "14:00:00",
+        "trajanje": 1.0,
+        "cijena": 22.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 13,
+            "video": "http://localhost:9000/video1.mp4",
+            "muzejByMuzejId": {
+                "id": 4,
+                "naziv": "Muzej zlata",
+                "brojTelefona": "+576013432222",
+                "lokacija": {
+                    "id": 4,
+                    "drzava": "Colombia",
+                    "grad": "Bogota",
+                    "geolokacijaDuzina": 4.601958,
+                    "geolokacijaSirina": -74.072098,
+                    "adresa": "Cra. 6 #15-88, Bogotá, Cundinamarca"
+                },
+                "tipMuzeja": {
+                    "id": 3,
+                    "tip": "muzej zlata"
+                }
+            }
+        }
+    },
+    {
+        "id": 5,
+        "datum": "2022-03-21T23:00:00.000+00:00",
+        "vrijeme": "13:00:00",
+        "trajanje": 3.0,
+        "cijena": 22.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 14,
+            "video": "http://localhost:9000/video1.mp4",
+            "muzejByMuzejId": {
+                "id": 4,
+                "naziv": "Muzej zlata",
+                "brojTelefona": "+576013432222",
+                "lokacija": {
+                    "id": 4,
+                    "drzava": "Colombia",
+                    "grad": "Bogota",
+                    "geolokacijaDuzina": 4.601958,
+                    "geolokacijaSirina": -74.072098,
+                    "adresa": "Cra. 6 #15-88, Bogotá, Cundinamarca"
+                },
+                "tipMuzeja": {
+                    "id": 3,
+                    "tip": "muzej zlata"
+                }
+            }
+        }
+    },
+    {
+        "id": 6,
+        "datum": "2022-03-21T23:00:00.000+00:00",
+        "vrijeme": "20:00:00",
+        "trajanje": 1.0,
+        "cijena": 33.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 15,
+            "video": "https://www.youtube.com/embed/fdcEKPS6tOQ",
+            "muzejByMuzejId": {
+                "id": 11,
+                "naziv": "Muzej Mevlana",
+                "brojTelefona": "+903323511215",
+                "lokacija": {
+                    "id": 11,
+                    "drzava": "Turkey",
+                    "grad": "Konja",
+                    "geolokacijaDuzina": 37.870895,
+                    "geolokacijaSirina": 32.504936,
+                    "adresa": "Aziziye Mah, Mevlana Cd. No:1"
+                },
+                "tipMuzeja": {
+                    "id": 6,
+                    "tip": "muzej umjetnosti"
+                }
+            }
+        }
+    },
+    {
+        "id": 7,
+        "datum": "2022-03-20T23:00:00.000+00:00",
+        "vrijeme": "19:00:00",
+        "trajanje": 1.0,
+        "cijena": 44.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 16,
+            "video": "https://www.youtube.com/embed/fdcEKPS6tOQ",
+            "muzejByMuzejId": {
+                "id": 4,
+                "naziv": "Muzej zlata",
+                "brojTelefona": "+576013432222",
+                "lokacija": {
+                    "id": 4,
+                    "drzava": "Colombia",
+                    "grad": "Bogota",
+                    "geolokacijaDuzina": 4.601958,
+                    "geolokacijaSirina": -74.072098,
+                    "adresa": "Cra. 6 #15-88, Bogotá, Cundinamarca"
+                },
+                "tipMuzeja": {
+                    "id": 3,
+                    "tip": "muzej zlata"
+                }
+            }
+        }
+    },
+    {
+        "id": 8,
+        "datum": "2022-03-27T22:00:00.000+00:00",
+        "vrijeme": "18:00:00",
+        "trajanje": 1.0,
+        "cijena": 33.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 17,
+            "video": "https://www.youtube.com/embed/fdcEKPS6tOQ",
+            "muzejByMuzejId": {
+                "id": 4,
+                "naziv": "Muzej zlata",
+                "brojTelefona": "+576013432222",
+                "lokacija": {
+                    "id": 4,
+                    "drzava": "Colombia",
+                    "grad": "Bogota",
+                    "geolokacijaDuzina": 4.601958,
+                    "geolokacijaSirina": -74.072098,
+                    "adresa": "Cra. 6 #15-88, Bogotá, Cundinamarca"
+                },
+                "tipMuzeja": {
+                    "id": 3,
+                    "tip": "muzej zlata"
+                }
+            }
+        }
+    },
+    {
+        "id": 9,
+        "datum": "2022-03-23T23:00:00.000+00:00",
+        "vrijeme": "14:00:00",
+        "trajanje": 1.0,
+        "cijena": 15.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 18,
+            "video": "http://localhost:9000/video1.mp4",
+            "muzejByMuzejId": {
+                "id": 3,
+                "naziv": "Kraljevski zamak",
+                "brojTelefona": "+48223555170",
+                "lokacija": {
+                    "id": 3,
+                    "drzava": "Poland",
+                    "grad": "Varšava",
+                    "geolokacijaDuzina": 52.248138,
+                    "geolokacijaSirina": 21.015352,
+                    "adresa": "plac Zamkowy 4"
+                },
+                "tipMuzeja": {
+                    "id": 1,
+                    "tip": "likovna umjetnost"
+                }
+            }
+        }
+    },
+    {
+        "id": 10,
+        "datum": "2022-03-30T22:00:00.000+00:00",
+        "vrijeme": "17:00:00",
+        "trajanje": 1.0,
+        "cijena": 11.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 19,
+            "video": "http://localhost:9000/video1.mp4",
+            "muzejByMuzejId": {
+                "id": 2,
+                "naziv": "Kraljevski muzej Ontario",
+                "brojTelefona": "+541152889900",
+                "lokacija": {
+                    "id": 2,
+                    "drzava": "Canada",
+                    "grad": "Toronto",
+                    "geolokacijaDuzina": 43.667862,
+                    "geolokacijaSirina": -79.394722,
+                    "adresa": "100 Queens Park"
+                },
+                "tipMuzeja": {
+                    "id": 2,
+                    "tip": "svjetska kultura"
+                }
+            }
+        }
+    },
+    {
+        "id": 11,
+        "datum": "2022-03-29T22:00:00.000+00:00",
+        "vrijeme": "14:30:00",
+        "trajanje": 1.0,
+        "cijena": 11.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 20,
+            "video": "https://www.youtube.com/embed/fdcEKPS6tOQ",
+            "muzejByMuzejId": {
+                "id": 3,
+                "naziv": "Kraljevski zamak",
+                "brojTelefona": "+48223555170",
+                "lokacija": {
+                    "id": 3,
+                    "drzava": "Poland",
+                    "grad": "Varšava",
+                    "geolokacijaDuzina": 52.248138,
+                    "geolokacijaSirina": 21.015352,
+                    "adresa": "plac Zamkowy 4"
+                },
+                "tipMuzeja": {
+                    "id": 1,
+                    "tip": "likovna umjetnost"
+                }
+            }
+        }
+    },
+    {
+        "id": 12,
+        "datum": "2022-03-29T22:00:00.000+00:00",
+        "vrijeme": "06:00:00",
+        "trajanje": 2.0,
+        "cijena": 22.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 21,
+            "video": "http://localhost:9000/video1.mp4",
+            "muzejByMuzejId": {
+                "id": 6,
+                "naziv": "Nacionalni muzej vazduhoplovstva i svemira",
+                "brojTelefona": "+12026332214",
+                "lokacija": {
+                    "id": 6,
+                    "drzava": "America",
+                    "grad": "Vašington",
+                    "geolokacijaDuzina": 38.888359,
+                    "geolokacijaSirina": -77.019936,
+                    "adresa": "600 Independence Ave SW, Washington, DC 20560"
+                },
+                "tipMuzeja": {
+                    "id": 5,
+                    "tip": "muzej vazduhoplovstva"
+                }
+            }
+        }
+    },
+    {
+        "id": 13,
+        "datum": "2022-03-30T22:00:00.000+00:00",
+        "vrijeme": "17:00:00",
+        "trajanje": 3.0,
+        "cijena": 22.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 22,
+            "video": "http://localhost:9000/video1.mp4",
+            "muzejByMuzejId": {
+                "id": 3,
+                "naziv": "Kraljevski zamak",
+                "brojTelefona": "+48223555170",
+                "lokacija": {
+                    "id": 3,
+                    "drzava": "Poland",
+                    "grad": "Varšava",
+                    "geolokacijaDuzina": 52.248138,
+                    "geolokacijaSirina": 21.015352,
+                    "adresa": "plac Zamkowy 4"
+                },
+                "tipMuzeja": {
+                    "id": 1,
+                    "tip": "likovna umjetnost"
+                }
+            }
+        }
+    },
+    {
+        "id": 14,
+        "datum": "2022-03-27T22:00:00.000+00:00",
+        "vrijeme": "00:05:00",
+        "trajanje": 1.0,
+        "cijena": 5.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 23,
+            "video": "http://localhost:9000/video1.mp4",
+            "muzejByMuzejId": {
+                "id": 1,
+                "naziv": "Nacionalni muzej lijepih umjetnosti",
+                "brojTelefona": "+541152889900",
+                "lokacija": {
+                    "id": 1,
+                    "drzava": "Argentina",
+                    "grad": "Buenos Ajres",
+                    "geolokacijaDuzina": -34.583279,
+                    "geolokacijaSirina": -58.39352,
+                    "adresa": "Av. del Libtransakcijaertador 1473"
+                },
+                "tipMuzeja": {
+                    "id": 1,
+                    "tip": "likovna umjetnost"
+                }
+            }
+        }
+    },
+    {
+        "id": 15,
+        "datum": "2022-03-28T22:00:00.000+00:00",
+        "vrijeme": "14:00:00",
+        "trajanje": 1.0,
+        "cijena": 10.0,
+        "prezentacijaByPrezentacijaId": {
+            "id": 24,
+            "video": "http://localhost:9000/video2.mp4",
+            "muzejByMuzejId": {
+                "id": 5,
+                "naziv": "Bijela kula",
+                "brojTelefona": "+302310267832",
+                "lokacija": {
+                    "id": 5,
+                    "drzava": "Greece",
+                    "grad": "Solun",
+                    "geolokacijaDuzina": 40.626579,
+                    "geolokacijaSirina": 22.94836,
+                    "adresa": "Thessaloniki 546 21"
+                },
+                "tipMuzeja": {
+                    "id": 4,
+                    "tip": "istorijski muzej"
+                }
+            }
+        }
+    }
+]

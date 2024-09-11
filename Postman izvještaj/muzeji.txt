@@ -1,0 +1,903 @@
+[
+    {
+        "id": 1,
+        "naziv": "Nacionalni muzej lijepih umjetnosti",
+        "brojTelefona": "+541152889900",
+        "lokacija": {
+            "id": 1,
+            "drzava": "Argentina",
+            "grad": "Buenos Ajres",
+            "geolokacijaDuzina": -34.583279,
+            "geolokacijaSirina": -58.39352,
+            "adresa": "Av. del Libtransakcijaertador 1473"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 2,
+        "naziv": "Kraljevski muzej Ontario",
+        "brojTelefona": "+541152889900",
+        "lokacija": {
+            "id": 2,
+            "drzava": "Canada",
+            "grad": "Toronto",
+            "geolokacijaDuzina": 43.667862,
+            "geolokacijaSirina": -79.394722,
+            "adresa": "100 Queens Park"
+        },
+        "tipMuzeja": {
+            "id": 2,
+            "tip": "svjetska kultura"
+        }
+    },
+    {
+        "id": 3,
+        "naziv": "Kraljevski zamak",
+        "brojTelefona": "+48223555170",
+        "lokacija": {
+            "id": 3,
+            "drzava": "Poland",
+            "grad": "Varšava",
+            "geolokacijaDuzina": 52.248138,
+            "geolokacijaSirina": 21.015352,
+            "adresa": "plac Zamkowy 4"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 4,
+        "naziv": "Muzej zlata",
+        "brojTelefona": "+576013432222",
+        "lokacija": {
+            "id": 4,
+            "drzava": "Colombia",
+            "grad": "Bogota",
+            "geolokacijaDuzina": 4.601958,
+            "geolokacijaSirina": -74.072098,
+            "adresa": "Cra. 6 #15-88, Bogotá, Cundinamarca"
+        },
+        "tipMuzeja": {
+            "id": 3,
+            "tip": "muzej zlata"
+        }
+    },
+    {
+        "id": 5,
+        "naziv": "Bijela kula",
+        "brojTelefona": "+302310267832",
+        "lokacija": {
+            "id": 5,
+            "drzava": "Greece",
+            "grad": "Solun",
+            "geolokacijaDuzina": 40.626579,
+            "geolokacijaSirina": 22.94836,
+            "adresa": "Thessaloniki 546 21"
+        },
+        "tipMuzeja": {
+            "id": 4,
+            "tip": "istorijski muzej"
+        }
+    },
+    {
+        "id": 6,
+        "naziv": "Nacionalni muzej vazduhoplovstva i svemira",
+        "brojTelefona": "+12026332214",
+        "lokacija": {
+            "id": 6,
+            "drzava": "America",
+            "grad": "Vašington",
+            "geolokacijaDuzina": 38.888359,
+            "geolokacijaSirina": -77.019936,
+            "adresa": "600 Independence Ave SW, Washington, DC 20560"
+        },
+        "tipMuzeja": {
+            "id": 5,
+            "tip": "muzej vazduhoplovstva"
+        }
+    },
+    {
+        "id": 7,
+        "naziv": "Muzej Vasa",
+        "brojTelefona": "+46851954880",
+        "lokacija": {
+            "id": 7,
+            "drzava": "Sweden",
+            "grad": "Stokholm",
+            "geolokacijaDuzina": 59.328156,
+            "geolokacijaSirina": 18.091438,
+            "adresa": "Galärvarvsvägen 14, 115 21 Stockholm"
+        },
+        "tipMuzeja": {
+            "id": 4,
+            "tip": "istorijski muzej"
+        }
+    },
+    {
+        "id": 8,
+        "naziv": "Nacionalna galerija",
+        "brojTelefona": "+442077472885",
+        "lokacija": {
+            "id": 8,
+            "drzava": "Great Britain",
+            "grad": "London",
+            "geolokacijaDuzina": 51.509098,
+            "geolokacijaSirina": -0.128331,
+            "adresa": "Trafalgar Square, London WC2N 5DN"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 9,
+        "naziv": "Akropoljski muzej",
+        "brojTelefona": "+302109000900",
+        "lokacija": {
+            "id": 9,
+            "drzava": "Greece",
+            "grad": "Atina",
+            "geolokacijaDuzina": 37.968594,
+            "geolokacijaSirina": 23.728479,
+            "adresa": "Dionysiou Areopagitou 15, Athina 117 42"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 10,
+        "naziv": "Muzej Viktorije i Alberta",
+        "brojTelefona": "+442079422000",
+        "lokacija": {
+            "id": 10,
+            "drzava": "Great Britain",
+            "grad": "London",
+            "geolokacijaDuzina": 51.496845,
+            "geolokacijaSirina": -0.1721,
+            "adresa": "Cromwell Rd, London SW7 2RL"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 11,
+        "naziv": "Muzej Mevlana",
+        "brojTelefona": "+903323511215",
+        "lokacija": {
+            "id": 11,
+            "drzava": "Turkey",
+            "grad": "Konja",
+            "geolokacijaDuzina": 37.870895,
+            "geolokacijaSirina": 32.504936,
+            "adresa": "Aziziye Mah, Mevlana Cd. No:1"
+        },
+        "tipMuzeja": {
+            "id": 6,
+            "tip": "muzej umjetnosti"
+        }
+    },
+    {
+        "id": 12,
+        "naziv": "Arheološki park Pompeje",
+        "brojTelefona": "+390818575111",
+        "lokacija": {
+            "id": 12,
+            "drzava": "Italy",
+            "grad": "Pompeji",
+            "geolokacijaDuzina": 40.748413,
+            "geolokacijaSirina": 14.481976,
+            "adresa": "Via Plinio, 26, 80045 Pompei NA"
+        },
+        "tipMuzeja": {
+            "id": 7,
+            "tip": "arheološki muzej"
+        }
+    },
+    {
+        "id": 13,
+        "naziv": "Muzej Angkut",
+        "brojTelefona": "+62341595007",
+        "lokacija": {
+            "id": 13,
+            "drzava": "Indonesia",
+            "grad": "Batu",
+            "geolokacijaDuzina": -7.876869,
+            "geolokacijaSirina": 112.519981,
+            "adresa": "Jl. Terusan Sultan Agung No.2, Ngaglik"
+        },
+        "tipMuzeja": {
+            "id": 8,
+            "tip": "muzej transporta"
+        }
+    },
+    {
+        "id": 14,
+        "naziv": "Galerija Ufici",
+        "brojTelefona": "+39055294883",
+        "lokacija": {
+            "id": 14,
+            "drzava": "Italy",
+            "grad": "Firenca",
+            "geolokacijaDuzina": 43.767994,
+            "geolokacijaSirina": 11.255268,
+            "adresa": "Piazzale degli Uffizi, 6, 50122 Firenze FI"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 15,
+        "naziv": "Muzej Orsej",
+        "brojTelefona": "+33140494814",
+        "lokacija": {
+            "id": 15,
+            "drzava": "France",
+            "grad": "Pariz",
+            "geolokacijaDuzina": 48.86047,
+            "geolokacijaSirina": 2.325056,
+            "adresa": "1 Rue de la Légion d'Honneur, 75007 Paris"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 16,
+        "naziv": "Nacionalni muzej Kastel Sant Anđelo",
+        "brojTelefona": "+39066819111",
+        "lokacija": {
+            "id": 16,
+            "drzava": "Italy",
+            "grad": "Vatikan",
+            "geolokacijaDuzina": 41.903145,
+            "geolokacijaSirina": 12.466319,
+            "adresa": "Lungotevere Castello, 50,00193 Roma RM,Italia"
+        },
+        "tipMuzeja": {
+            "id": 9,
+            "tip": "mauzolej"
+        }
+    },
+    {
+        "id": 17,
+        "naziv": "Muzej palate Topkapi",
+        "brojTelefona": "+902125120480",
+        "lokacija": {
+            "id": 17,
+            "drzava": "Turkey",
+            "grad": "Istanbul",
+            "geolokacijaDuzina": 41.011688,
+            "geolokacijaSirina": 28.983391,
+            "adresa": "Cankurtaran, 34122 Fatih/İstanbul"
+        },
+        "tipMuzeja": {
+            "id": 10,
+            "tip": "religijski muzej"
+        }
+    },
+    {
+        "id": 18,
+        "naziv": "Muzej Prado",
+        "brojTelefona": "+34913302800",
+        "lokacija": {
+            "id": 18,
+            "drzava": "Spain",
+            "grad": "Madrid",
+            "geolokacijaDuzina": 40.415371,
+            "geolokacijaSirina": -3.692499,
+            "adresa": "C. de Ruiz de Alarcón, 23, 28014 Madrid"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 19,
+        "naziv": "Muzej umjetnosti u Sao Paulu",
+        "brojTelefona": "+551131495959",
+        "lokacija": {
+            "id": 19,
+            "drzava": "Brasil",
+            "grad": "Sao Paulo",
+            "geolokacijaDuzina": -23.561462,
+            "geolokacijaSirina": -46.655979,
+            "adresa": "Av. Paulista, 1578 - Bela Vista, São Paulo"
+        },
+        "tipMuzeja": {
+            "id": 6,
+            "tip": "muzej umjetnosti"
+        }
+    },
+    {
+        "id": 20,
+        "naziv": "Britanski muzej",
+        "brojTelefona": "+442073238299",
+        "lokacija": {
+            "id": 20,
+            "drzava": "Great Britain",
+            "grad": "London",
+            "geolokacijaDuzina": 51.519554,
+            "geolokacijaSirina": -0.126989,
+            "adresa": "Great Russell St, London WC1B 3DG"
+        },
+        "tipMuzeja": {
+            "id": 2,
+            "tip": "svjetska kultura"
+        }
+    },
+    {
+        "id": 21,
+        "naziv": "Kraljevsk zamak Vavel",
+        "brojTelefona": "+48124225155",
+        "lokacija": {
+            "id": 21,
+            "drzava": "Poland",
+            "grad": "Krakov",
+            "geolokacijaDuzina": 50.054264,
+            "geolokacijaSirina": 19.935349,
+            "adresa": "Wawel 5, 31-001 Kraków"
+        },
+        "tipMuzeja": {
+            "id": 4,
+            "tip": "istorijski muzej"
+        }
+    },
+    {
+        "id": 22,
+        "naziv": "Muzej Luvr",
+        "brojTelefona": "+33140205050",
+        "lokacija": {
+            "id": 22,
+            "drzava": "France",
+            "grad": "Pariz",
+            "geolokacijaDuzina": 59.451542,
+            "geolokacijaSirina": 24.733957,
+            "adresa": "Rue de Rivoli, 75001 Paris"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 23,
+        "naziv": "Lenusadam",
+        "brojTelefona": "+372 620 0545",
+        "lokacija": {
+            "id": 23,
+            "drzava": "Estonia",
+            "grad": "Talin",
+            "geolokacijaDuzina": 59.451523,
+            "geolokacijaSirina": 24.734016,
+            "adresa": "Vesilennuki 6, 10145 Tallinn"
+        },
+        "tipMuzeja": {
+            "id": 11,
+            "tip": "pomorski muzej"
+        }
+    },
+    {
+        "id": 24,
+        "naziv": "Muzej Botero",
+        "brojTelefona": "+5713431316",
+        "lokacija": {
+            "id": 24,
+            "drzava": "Colombia",
+            "grad": "Bogota",
+            "geolokacijaDuzina": 4.597735,
+            "geolokacijaSirina": -74.072998,
+            "adresa": "Cl. 11 #4-41, Bogotá"
+        },
+        "tipMuzeja": {
+            "id": 6,
+            "tip": "muzej umjetnosti"
+        }
+    },
+    {
+        "id": 25,
+        "naziv": "Jad Vašem",
+        "brojTelefona": "+97226443400",
+        "lokacija": {
+            "id": 25,
+            "drzava": "Israel",
+            "grad": "Jerusalim",
+            "geolokacijaDuzina": 31.774885,
+            "geolokacijaSirina": 35.175301,
+            "adresa": "Jerusalem, 9103401"
+        },
+        "tipMuzeja": {
+            "id": 12,
+            "tip": "memorijalni muzej"
+        }
+    },
+    {
+        "id": 26,
+        "naziv": "Nacionalna galerija umjetnosti",
+        "brojTelefona": "+12027374215",
+        "lokacija": {
+            "id": 26,
+            "drzava": "America",
+            "grad": "Vašington DC",
+            "geolokacijaDuzina": 38.891796,
+            "geolokacijaSirina": -77.019791,
+            "adresa": "Constitution Ave. NW, Washington, DC 20565"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 27,
+        "naziv": "Državni ruski muzej",
+        "brojTelefona": "+78125954248",
+        "lokacija": {
+            "id": 27,
+            "drzava": "Russia",
+            "grad": "Sankt Peterburg",
+            "geolokacijaDuzina": 59.939014,
+            "geolokacijaSirina": 30.33202,
+            "adresa": "Инженерная ул., 4, Санкт-Петербург"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 28,
+        "naziv": "Nacionalni muzej umjetnosti (MUNAL)",
+        "brojTelefona": "+525586475430",
+        "lokacija": {
+            "id": 28,
+            "drzava": "Mexico",
+            "grad": "Meksiko Siti",
+            "geolokacijaDuzina": 19.448954,
+            "geolokacijaSirina": -99.141357,
+            "adresa": "Calle de Tacuba 8"
+        },
+        "tipMuzeja": {
+            "id": 6,
+            "tip": "muzej umjetnosti"
+        }
+    },
+    {
+        "id": 29,
+        "naziv": "Muzej istorije umjetnosti",
+        "brojTelefona": "+431525240",
+        "lokacija": {
+            "id": 29,
+            "drzava": "Austria",
+            "grad": "Beč",
+            "geolokacijaDuzina": 48.204346,
+            "geolokacijaSirina": 16.361788,
+            "adresa": "Maria-Theresien-Platz, 1010 Wien"
+        },
+        "tipMuzeja": {
+            "id": 6,
+            "tip": "muzej umjetnosti"
+        }
+    },
+    {
+        "id": 30,
+        "naziv": "Puškinov muzej",
+        "brojTelefona": "+74956979578",
+        "lokacija": {
+            "id": 30,
+            "drzava": "Russia",
+            "grad": "Moskva",
+            "geolokacijaDuzina": 55.74781,
+            "geolokacijaSirina": 37.604725,
+            "adresa": "ул. Волхонка, 12, Москва, Русија, 119019"
+        },
+        "tipMuzeja": {
+            "id": 6,
+            "tip": "muzej umjetnosti"
+        }
+    },
+    {
+        "id": 31,
+        "naziv": "Hjustonski muzej prirodnih nauka",
+        "brojTelefona": "+17136394629",
+        "lokacija": {
+            "id": 31,
+            "drzava": "America",
+            "grad": "Hjuston",
+            "geolokacijaDuzina": 29.722958,
+            "geolokacijaSirina": -95.389572,
+            "adresa": "5555 Hermann Park Dr, Houston, TX 77030"
+        },
+        "tipMuzeja": {
+            "id": 13,
+            "tip": "muzej prirodnih nauka"
+        }
+    },
+    {
+        "id": 32,
+        "naziv": "Nacionalni muzej afroameričke kulture",
+        "brojTelefona": "+18447503012",
+        "lokacija": {
+            "id": 32,
+            "drzava": "America",
+            "grad": "Vašington",
+            "geolokacijaDuzina": 38.8918,
+            "geolokacijaSirina": -77.03257,
+            "adresa": "1400 Constitution Ave. NW, Washington"
+        },
+        "tipMuzeja": {
+            "id": 14,
+            "tip": "muzej afroameričke kulture"
+        }
+    },
+    {
+        "id": 33,
+        "naziv": "Muzej Templo Maior",
+        "brojTelefona": "+525540405600",
+        "lokacija": {
+            "id": 33,
+            "drzava": "Mexico",
+            "grad": "Meksiko Siti",
+            "geolokacijaDuzina": 19.435453,
+            "geolokacijaSirina": -99.132095,
+            "adresa": "Centro Histórico de la Cdad. de México"
+        },
+        "tipMuzeja": {
+            "id": 7,
+            "tip": "arheološki muzej"
+        }
+    },
+    {
+        "id": 34,
+        "naziv": "Imperijalni muzej",
+        "brojTelefona": "+525540405600",
+        "lokacija": {
+            "id": 34,
+            "drzava": "Brasil",
+            "grad": "Petropolis",
+            "geolokacijaDuzina": -22.507067,
+            "geolokacijaSirina": -43.17535,
+            "adresa": "R. da Imperatriz, 220 - Centro"
+        },
+        "tipMuzeja": {
+            "id": 15,
+            "tip": "imperijalni muzej"
+        }
+    },
+    {
+        "id": 35,
+        "naziv": "Mercedes-Benz muzej",
+        "brojTelefona": "+497111730000",
+        "lokacija": {
+            "id": 35,
+            "drzava": "Germany",
+            "grad": "Štutgard",
+            "geolokacijaDuzina": 48.788906,
+            "geolokacijaSirina": 9.233768,
+            "adresa": "Mercedesstraße 100, 70372 Stuttgart"
+        },
+        "tipMuzeja": {
+            "id": 16,
+            "tip": "muzej automobila"
+        }
+    },
+    {
+        "id": 36,
+        "naziv": "Državna Tretjakovska galerija",
+        "brojTelefona": "+74992307788",
+        "lokacija": {
+            "id": 36,
+            "drzava": "Russia",
+            "grad": "Moskva",
+            "geolokacijaDuzina": 55.741535,
+            "geolokacijaSirina": 37.620842,
+            "adresa": "Лаврушинский пер., 10, Москва"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 37,
+        "naziv": "Nacionalni muzej Škotske",
+        "brojTelefona": "+443001236789",
+        "lokacija": {
+            "id": 37,
+            "drzava": "Great Britain",
+            "grad": "Edinburg",
+            "geolokacijaDuzina": 55.947144,
+            "geolokacijaSirina": -3.190588,
+            "adresa": "Chambers St, Edinburgh EH1 1JF"
+        },
+        "tipMuzeja": {
+            "id": 4,
+            "tip": "istorijski muzej"
+        }
+    },
+    {
+        "id": 38,
+        "naziv": "Nacionalni prirodnjački muzej",
+        "brojTelefona": "+12026331000",
+        "lokacija": {
+            "id": 38,
+            "drzava": "America",
+            "grad": "Vašington DC",
+            "geolokacijaDuzina": 38.891403,
+            "geolokacijaSirina": -77.026062,
+            "adresa": "10th St. & Constitution Ave. NW, Washington"
+        },
+        "tipMuzeja": {
+            "id": 17,
+            "tip": "prirodnjački muzej"
+        }
+    },
+    {
+        "id": 39,
+        "naziv": "Memorijalni muzej Aušvic-Birkenau",
+        "brojTelefona": "+48338448000",
+        "lokacija": {
+            "id": 39,
+            "drzava": "Poland",
+            "grad": "Osvjećim",
+            "geolokacijaDuzina": 50.027576,
+            "geolokacijaSirina": 19.201962,
+            "adresa": "Więźniów Oświęcimia 20, 32-603 Oświęcim"
+        },
+        "tipMuzeja": {
+            "id": 12,
+            "tip": "memorijalni muzej"
+        }
+    },
+    {
+        "id": 40,
+        "naziv": "Zamak u Malborku",
+        "brojTelefona": "+48556470877",
+        "lokacija": {
+            "id": 40,
+            "drzava": "Poland",
+            "grad": "Malbork",
+            "geolokacijaDuzina": 54.039955,
+            "geolokacijaSirina": 19.028088,
+            "adresa": "Starościńska 1, 82-200 Malbork"
+        },
+        "tipMuzeja": {
+            "id": 4,
+            "tip": "istorijski muzej"
+        }
+    },
+    {
+        "id": 41,
+        "naziv": "Minijaturna zemlja čuda",
+        "brojTelefona": "+49403006800",
+        "lokacija": {
+            "id": 41,
+            "drzava": "Germany",
+            "grad": "Hamburg",
+            "geolokacijaDuzina": 53.544006,
+            "geolokacijaSirina": 9.989058,
+            "adresa": "Kehrwieder 2/Block D, 20457 Hamburg"
+        },
+        "tipMuzeja": {
+            "id": 18,
+            "tip": "muzej minijatura"
+        }
+    },
+    {
+        "id": 42,
+        "naziv": "Državni muzej Ermitaž",
+        "brojTelefona": "+78127109079",
+        "lokacija": {
+            "id": 42,
+            "drzava": "Russia",
+            "grad": "Sankt Peterburg",
+            "geolokacijaDuzina": 59.940861,
+            "geolokacijaSirina": 30.314131,
+            "adresa": "Дворцовая пл., 2, Санкт-Петербург"
+        },
+        "tipMuzeja": {
+            "id": 6,
+            "tip": "muzej umjetnosti"
+        }
+    },
+    {
+        "id": 43,
+        "naziv": "Muzej Caritsino",
+        "brojTelefona": "+74953224433",
+        "lokacija": {
+            "id": 43,
+            "drzava": "Russia",
+            "grad": "Moskva",
+            "geolokacijaDuzina": 55.611786,
+            "geolokacijaSirina": 37.686138,
+            "adresa": "Дольская ул., 1, Москва"
+        },
+        "tipMuzeja": {
+            "id": 4,
+            "tip": "istorijski muzej"
+        }
+    },
+    {
+        "id": 44,
+        "naziv": "Metropolitenski muzej umjetnosti",
+        "brojTelefona": "+12125357710",
+        "lokacija": {
+            "id": 44,
+            "drzava": "America",
+            "grad": "Njujork",
+            "geolokacijaDuzina": 40.785004,
+            "geolokacijaSirina": -73.961861,
+            "adresa": "1000 5th Ave, New York, NY 10028"
+        },
+        "tipMuzeja": {
+            "id": 4,
+            "tip": "istorijski muzej"
+        }
+    },
+    {
+        "id": 45,
+        "naziv": "Državni muzej Peterhof",
+        "brojTelefona": "+78123132314",
+        "lokacija": {
+            "id": 45,
+            "drzava": "Russia",
+            "grad": "Sankt Peterburg",
+            "geolokacijaDuzina": 59.886421,
+            "geolokacijaSirina": 29.908554,
+            "adresa": "Разводная ул., 2, Санкт-Петербург"
+        },
+        "tipMuzeja": {
+            "id": 1,
+            "tip": "likovna umjetnost"
+        }
+    },
+    {
+        "id": 46,
+        "naziv": "Aja Sofija",
+        "brojTelefona": "+902125221750",
+        "lokacija": {
+            "id": 46,
+            "drzava": "Turkey",
+            "grad": "Istanbul",
+            "geolokacijaDuzina": 41.008801,
+            "geolokacijaSirina": 28.980186,
+            "adresa": "Sultan Ahmet, Ayasofya Meydanı No:1"
+        },
+        "tipMuzeja": {
+            "id": 10,
+            "tip": "religijski muzej"
+        }
+    },
+    {
+        "id": 47,
+        "naziv": "Muzej lijepih umjetnosti",
+        "brojTelefona": "+525286476500",
+        "lokacija": {
+            "id": 47,
+            "drzava": "Mexico",
+            "grad": "Meksiko Siti",
+            "geolokacijaDuzina": 19.435411,
+            "geolokacijaSirina": -99.141235,
+            "adresa": "Av. Juárez S/N, Centro Histórico"
+        },
+        "tipMuzeja": {
+            "id": 6,
+            "tip": "muzej umjetnosti"
+        }
+    },
+    {
+        "id": 48,
+        "naziv": "Muzej-panorama Volgograd",
+        "brojTelefona": "+78442550083",
+        "lokacija": {
+            "id": 48,
+            "drzava": "Russia",
+            "grad": "Volgograd",
+            "geolokacijaDuzina": 48.718994,
+            "geolokacijaSirina": 44.533047,
+            "adresa": "ул. имени Маршала В.И. Чуйкова, 47"
+        },
+        "tipMuzeja": {
+            "id": 4,
+            "tip": "istorijski muzej"
+        }
+    },
+    {
+        "id": 49,
+        "naziv": "Katedrala Svetog Isaka",
+        "brojTelefona": "+78123159732",
+        "lokacija": {
+            "id": 49,
+            "drzava": "Russia",
+            "grad": "Sankt Peterburg",
+            "geolokacijaDuzina": 59.934517,
+            "geolokacijaSirina": 30.305616,
+            "adresa": "Исаакиевская пл., 4, Санкт-Петербург"
+        },
+        "tipMuzeja": {
+            "id": 10,
+            "tip": "religijski muzej"
+        }
+    },
+    {
+        "id": 50,
+        "naziv": "Kazanski kremlj",
+        "brojTelefona": "+78435678142",
+        "lokacija": {
+            "id": 50,
+            "drzava": "Russia",
+            "grad": "Kazan",
+            "geolokacijaDuzina": 59.934517,
+            "geolokacijaSirina": 30.305616,
+            "adresa": "Kazan, Republic of Tatarstan, 420014"
+        },
+        "tipMuzeja": {
+            "id": 4,
+            "tip": "istorijski muzej"
+        }
+    },
+    {
+        "id": 51,
+        "naziv": "natalijacovickovic",
+        "brojTelefona": "564765",
+        "lokacija": {
+            "id": 53,
+            "drzava": "Sweden",
+            "grad": "Borlange Kommun",
+            "geolokacijaDuzina": 0.0,
+            "geolokacijaSirina": 0.0,
+            "adresa": "Nedeljko"
+        },
+        "tipMuzeja": {
+            "id": 5,
+            "tip": "muzej vazduhoplovstva"
+        }
+    },
+    {
+        "id": 52,
+        "naziv": "novi muzej",
+        "brojTelefona": "2445768768",
+        "lokacija": {
+            "id": 55,
+            "drzava": "Italy",
+            "grad": "Provincia di Cosenza",
+            "geolokacijaDuzina": 4.0,
+            "geolokacijaSirina": 5.0,
+            "adresa": "nova adresa"
+        },
+        "tipMuzeja": {
+            "id": 6,
+            "tip": "muzej umjetnosti"
+        }
+    },
+    {
+        "id": 53,
+        "naziv": "Muzej ",
+        "brojTelefona": "65777222",
+        "lokacija": {
+            "id": 57,
+            "drzava": "Bosnia and Herzegovina",
+            "grad": "Neretvljanski",
+            "geolokacijaDuzina": 23.0,
+            "geolokacijaSirina": 24.0,
+            "adresa": "Adresa123"
+        },
+        "tipMuzeja": {
+            "id": 4,
+            "tip": "istorijski muzej"
+        }
+    }
+]

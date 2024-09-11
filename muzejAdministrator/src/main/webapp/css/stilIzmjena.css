@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.forma{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+
+div{
+	flex-basis:30%
+}
+
+input{
+	text-align: center;
+}
